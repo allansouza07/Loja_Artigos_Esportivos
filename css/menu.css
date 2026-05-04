@@ -7,6 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    background-color: rgb(238, 230, 230) ;
     
 }
 @media screen and (min-width:600px){
@@ -33,9 +34,10 @@ body {
 }
 .logo {
     position: absolute;
-    width:5%;
-    height:120%;
+    width:9%;
+    height:160%;
     left:50px;
+    top:-17px;
 }
 .lupa{
     position:relative;
@@ -148,7 +150,7 @@ body {
 .meio{
     background-color: black;
     position: relative;
-    height:2000px;
+    height:1450px;
 }
 .banner{
     position: relative;
@@ -209,10 +211,7 @@ body {
 .linkcapitalismo:hover {
     color: blue;
 }
-.rodape{
-    height:900px;
-    background-color: black;
-}
+
 .carrosel{
     position: relative;
     display: flex;
@@ -290,11 +289,42 @@ body {
     text-shadow: 2px 5px 5px rgba(0,0,0,0.7);
     z-index: 2;
 }
+.marcas{
+    position: relative;
+    height: 350px;
+    background-color: rgb(238, 230, 230);
+    z-index: 2;
+}
+.marcas h1{
+    position: absolute;
+    left:50px;
+    top:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.marcascarrosel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:100px;
+}
+.marca{
+    width:150px;
+    height:150px;
+    margin:30px;
+    border-radius: 100px;
+}
+
+
+
+
+
 .produtos{
     background-color: rgb(238, 230, 230);
     position: relative;
     color: rgb(0, 0, 0);
     height: 400px;
+    top: -50px;
 }
 .produtos{
     position: relative;
@@ -381,6 +411,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
+    top:-50px;
 }
 .cartao6{
     position: relative;
@@ -443,11 +474,63 @@ body {
     color:rgb(0, 0, 0);
     position: relative;
     left:50px;
-    top:40px;
+    top:0px;
     z-index: 2;
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
 }
+.rodape{
+    position: relative;
+    height:200px;
+    background-color: black;
+    top:1000px;
+    z-index: 3;
+    display: flex;
+}
+.suporte{
+    position: relative;
+    z-index: 3;
+    color: white;
+    top:37px;
+    left:100px;
+}
+.cartoes{
+    position: relative;
+    display: flex;
+    color:white
+}
+.cartoes h4{
+    position: relative;
+    left:400px;
+    top:30px;
+}
+.bandeiras{
+    position: relative;
+    display: flex;
+    left:200px;
+    top:50px;
+    
 
+
+}
+.bandeira{
+    
+    width: 40px;
+    height: 30px;
+    left:900px;
+    margin:5px;
+}
+.sociais{
+    position: relative;
+    left:100px;
+    color:white
+}
+.sociais a {
+    position: relative;
+    left:430px;
+    top:40px;
+    color:white;
+    display: block;
+}
 
    
