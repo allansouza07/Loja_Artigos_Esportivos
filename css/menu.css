@@ -122,10 +122,10 @@ body {
 }
 .caminhao{
     position: absolute;
-    width: 3%;
-    height:90%;
-    left: 460px;
-    top:3px
+    width: 2%;
+    height:40%;
+    left: 470px;
+    top:17px
 }
 .frete{
     position: relative;
