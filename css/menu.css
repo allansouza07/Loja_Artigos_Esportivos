@@ -533,9 +533,9 @@ body {
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
     body{
-        width:900px;
+        width:1000px;
     }
     .cabecalhopreto{
     position: relative;
@@ -751,10 +751,12 @@ body {
 }
 .chuteira{
     position: relative;
-    width:400px;
-    height:500px;
+    width:200px;
+    height:300px;
     margin:20px;
     display: block;
+    z-index: 3;
+    top:50px;
 }
 .carrosel a{
     position: relative;
