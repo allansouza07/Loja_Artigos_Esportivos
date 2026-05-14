@@ -572,7 +572,7 @@ body {
     width: 1%;
     height:5%;
     top:-105px;
-    left:130px;
+    left:80px;
     z-index: 3;
 }
 .lupapesquisa img{
@@ -581,7 +581,7 @@ body {
 }
 .pesquisa{
     position: relative;
-    left:150px;
+    left:100px;
     height: 10px;
     width: 140px;
     top:-90px;
@@ -590,32 +590,37 @@ body {
 }
 .cep{
     position:absolute;
-    width: 1.5%;
-    height:36%;
-    left:1143px;
+    width: 15px;
+    height:36px;
+    left:143px;
     top:24px;
+    z-index: 3;
 }
 .cep1{
     position:absolute;
-    font-size:12px;
-    left:1170px;
-    top:20px;
+    font-size:10px;
+    left:290px;
+    top:10px;
     padding: 3px;
     background-color:rgb(207, 200, 200);
+    z-index: 3;
+    width:90px;
 }
 .cep2{
     color:black;
     text-decoration: none;
+    width:20px;
 }
 .cep2:hover{
     color:red
 }
 .brasil{
-    position: absolute;
-    width: 2.5%;
-    height: 60%;
-    left:1290px;
-    top:20px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left:385px;
+    top:-125px;
+    z-index: 3;
 
 }
 .pesquisa1{
