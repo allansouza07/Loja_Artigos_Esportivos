@@ -848,9 +848,10 @@ body {
 }
 .marcas h1{
     position: absolute;
-    left:50px;
+    left:10px;
     top:50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
 }
 .marcascarrosel{
     position: relative;
@@ -860,21 +861,16 @@ body {
     top:100px;
 }
 .marca{
-    width:150px;
-    height:150px;
-    margin:30px;
+    width:50px;
+    height:50px;
+    margin:7px;
     border-radius: 100px;
 }
-
-
-
-
-
 .produtos{
     background-color: rgb(238, 230, 230);
     position: relative;
     color: rgb(0, 0, 0);
-    height: 400px;
+    height: 200px;
     top: -50px;
 }
 .produtos{
@@ -886,19 +882,21 @@ body {
 }
 .cartao1{
     position: relative;
-    top:50px;
-    border:1px solid rgb(90, 86, 86);
-    height:300px;
+    top:-0px;
+    
+    height:100px;
     padding-top: 5px;
     margin-top: 0;
     box-sizing: border-box;
-    left:-90px;
+    left:-40px;
+    z-index:3;
+    
 }
 .produtos1{
     position: relative;
     display: block;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     margin:30px;
     top:-10px;
     border:2px solid white;
@@ -907,13 +905,13 @@ body {
 
 .cartao2{
     position: relative;
-    top:50px;
-    border:1px solid rgb(90, 86, 86);
+    top:0px;
+    
     height:300px;
     padding-top: 5px;
     margin-top: 0;
     box-sizing: border-box;
-    left:-40px;
+    left:-105px;
 }
 
 .cartao3{
@@ -924,13 +922,13 @@ body {
     padding-top: 5px;
     margin-top: 0;
     box-sizing: border-box;
-    left:10px;
+    left:0px;
 }
 
 .cartao4{
     position: relative;
-    top:50px;
-    border:1px solid rgb(90, 86, 86);
+    top:-300px;
+    
     height:300px;
     padding-top: 5px;
     margin-top: 0;
@@ -941,8 +939,8 @@ body {
 }
 .cartao5{
     position: relative;
-    top:50px;
-    border:1px solid rgb(90, 86, 86);
+    top:-70px;
+    
     height:300px;
     padding-top: 5px;
     margin-top: 0;
@@ -955,6 +953,7 @@ body {
     position: relative;
     color: rgb(0, 0, 0);
     height: 400px;
+    font-size:15px;
 }
 .produtoss{
     position: relative;
@@ -967,65 +966,67 @@ body {
 .cartao6{
     position: relative;
     top:470px;
-    border:1px solid rgb(90, 86, 86);
+    
     height:300px;
     padding-top: 5px;
     margin-top: 0;
     box-sizing: border-box;
-    left:-90px;
-    top:10px;
+    left:-5px;
+    top:0px;
+    z-index: 4;
 }
 .cartao7{
     position: relative;
     top:470px;
-    border:1px solid rgb(90, 86, 86);
+
     height:300px;
     padding-top: 5px;
     margin-top: 0;
     box-sizing: border-box;
-    left:-40px;
+    left:-65px;
     top:10px;
 }
 .cartao8{
     position: relative;
     top:470px;
-    border:1px solid rgb(90, 86, 86);
     height:300px;
     padding-top: 5px;
     margin-top: 0;
     box-sizing: border-box;
-    left:10px;
-    top:10px;
+    left:240px;
+    top:-290px;
 }
 .cartao9{
     position: relative;
     top:470px;
-    border:1px solid rgb(90, 86, 86);
+    
     height:300px;
     padding-top: 5px;
     margin-top: 0;
     box-sizing: border-box;
     left:60px;
     top:10px;
+    visibility: hidden;
 }
 .cartao10{
     position: relative;
     top:470px;
-    border:1px solid rgb(90, 86, 86);
+    
     height:300px;
     padding-top: 5px;
     margin-top: 0;
     box-sizing: border-box;
     left:110px;
     top:10px;
+    visibility: hidden;
 }
 
 
 .h4{
     color:rgb(0, 0, 0);
     position: relative;
-    left:50px;
-    top:0px;
+    left:10px;
+    top:-130px;
     z-index: 2;
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
@@ -1034,7 +1035,7 @@ body {
     position: relative;
     height:200px;
     background-color: black;
-    top:1000px;
+    top:100px;
     z-index: 3;
     display: flex;
 }
